@@ -51,7 +51,7 @@ export default function LoginPage() {
 			<div className="w-full max-w-md space-y-6">
 				{/* Logo */}
 				<div className="flex flex-col items-center space-y-2">
-					<Image src="/correoschile-logo.svg" alt="CorreosChile Logo" width={300} height={41} />
+					<Image src="/logo.svg" alt="Ingeniería Simple" width={200} height={87} />
 					<div className="text-center">
 						<p className="text-sm text-muted-foreground">Sistema de Seguimiento de Auditorías</p>
 					</div>
@@ -69,7 +69,7 @@ export default function LoginPage() {
 							<Input
 								id="email"
 								type="email"
-								placeholder="usuario@correosChile.cl"
+								placeholder="usuario@ingenieriasimple.cl"
 								value={email}
 								onChange={(e) => setEmail(e.target.value)}
 							/>
@@ -117,7 +117,7 @@ export default function LoginPage() {
 				</Card>
 
 				<p className="text-center text-xs text-muted-foreground">
-					CorreosChile &copy; 2025. Todos los derechos reservados.
+					Ingeniería Simple &copy; 2025. Todos los derechos reservados.
 				</p>
 			</div>
 		</div>

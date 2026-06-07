@@ -34,7 +34,7 @@ export function Topbar() {
 			<div className="flex items-center gap-6">
 				<Link href="/" className="flex items-center gap-3 transition-opacity hover:opacity-80">
 					<div className="flex flex-col">
-						<Image src="/correoschile-logo.svg" alt="Logo" width={130} height={20} />
+						<Image src="/logo.svg" alt="Ingeniería Simple" width={92} height={40} />
 						<span className="text-[10px] font-semibold uppercase tracking-wider text-nowrap text-slate-500">
 							Sistema de Auditoría
 						</span>

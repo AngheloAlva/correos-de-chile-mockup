@@ -4,22 +4,22 @@ export const usuarios: Usuario[] = [
   {
     id: "1",
     nombre: "María González",
-    email: "maria.gonzalez@correosChile.cl",
+    email: "maria.gonzalez@ingenieriasimple.cl",
     rol: "gerencia",
     gerencia: "Operaciones",
   },
   {
     id: "2",
     nombre: "Carlos Rodríguez",
-    email: "carlos.rodriguez@correosChile.cl",
+    email: "carlos.rodriguez@ingenieriasimple.cl",
     rol: "gerencia",
     gerencia: "Finanzas",
   },
-  { id: "3", nombre: "Ana Martínez", email: "ana.martinez@correosChile.cl", rol: "auditor" },
-  { id: "4", nombre: "Pedro Silva", email: "pedro.silva@correosChile.cl", rol: "auditor" },
-  { id: "5", nombre: "Roberto Fernández", email: "roberto.fernandez@correosChile.cl", rol: "comite" },
-  { id: "6", nombre: "Laura Soto", email: "laura.soto@correosChile.cl", rol: "gerencia", gerencia: "Tecnología" },
-  { id: "7", nombre: "Juan Pérez", email: "juan.perez@correosChile.cl", rol: "gerencia", gerencia: "Recursos Humanos" },
+  { id: "3", nombre: "Ana Martínez", email: "ana.martinez@ingenieriasimple.cl", rol: "auditor" },
+  { id: "4", nombre: "Pedro Silva", email: "pedro.silva@ingenieriasimple.cl", rol: "auditor" },
+  { id: "5", nombre: "Roberto Fernández", email: "roberto.fernandez@ingenieriasimple.cl", rol: "comite" },
+  { id: "6", nombre: "Laura Soto", email: "laura.soto@ingenieriasimple.cl", rol: "gerencia", gerencia: "Tecnología" },
+  { id: "7", nombre: "Juan Pérez", email: "juan.perez@ingenieriasimple.cl", rol: "gerencia", gerencia: "Recursos Humanos" },
 ]
 
 export const auditorias: Auditoria[] = [
